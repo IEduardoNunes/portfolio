@@ -316,7 +316,10 @@ header nav ul li:hover {
   transition:.17s linear;
 }
 .itemProjects:hover {
-  transform:scale(1.1);
+  background-color:#eee;
+} 
+.dark .itemProjects:hover {
+  background-color:#111;
 }
 .dark .itemProjects {
   border:2px solid #fff;
@@ -474,6 +477,15 @@ footer address {
   text-decoration:none;
 }
 
+
+@media (max-width:1075px) {
+  .itemProjects:hover {
+    background-color:#fff;
+  }
+  .dark .itemProjects:hover {
+    background-color:#1c1c1c;
+  }
+}
 @media (min-width:770px) and (max-width:1025px) {
   .containerGrid {
     gap:20px;
