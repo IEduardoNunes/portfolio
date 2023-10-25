@@ -355,12 +355,16 @@ header nav ul li:hover {
   padding:3px 7px;
   margin-bottom:10px;
   transition:.17s linear;
+  width: 115px;
+  text-align:center;
+  box-shadow: 0px 0px 3px #000;
 }
 .linkProject:hover {
   transform:scale(1.1);
 }
 .dark .linkProject {
   color:#fff;
+  box-shadow: 0 0 3px #ccc;
 }
 .containerContacts {
   display:flex;
