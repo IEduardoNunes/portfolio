@@ -40,7 +40,7 @@ buttonContacts.addEventListener('click', scrollContacts);
 
 function scrollAboutMe() {
   html.scrollTo({
-    top: 623.3043212890625, 
+    top: 610, 
     left:0,
     behavior:'smooth'
   });
@@ -52,21 +52,21 @@ function scrollAboutMe() {
 function scrollProjects() {
   if (window.matchMedia("(min-width:770px)").matches) {
     html.scrollTo({
-      top: 1257.04345703125, 
+      top: 1335, 
       left:0,
       behavior:'smooth'
     });
     ul.style.display = 'flex';
   } else if (window.matchMedia("(min-width:427px) and (max-width:769px)").matches) {
     html.scrollTo({
-      top: 1131.8260498046875, 
+      top: 1252, 
       left:0,
       behavior:'smooth'
     });
     ul.style.display = 'none';
   }else if (window.matchMedia("(min-width:319px) and (max-width:426px)").matches) {
     html.scrollTo({
-      top: 1380, 
+      top: 1604, 
       left:0,
       behavior:'smooth'
     });
@@ -76,7 +76,7 @@ function scrollProjects() {
 
 function scrollContacts() {
   html.scrollTo({
-    top: 3131.826171875, 
+    top: 3756, 
     left:0,
     behavior:'smooth'
   });
